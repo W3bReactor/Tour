@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Tour</title>
+  <link rel="preload" href="fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Mulish-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Mulish-Light.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Mulish-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PlayfairDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <img loading="lazy" src="img/logo.svg" class="header__logo" width="41" height="41" alt="logo">
+      <div class="header__right" data-menu>
+        <nav class="nav" title="Main menu">
+          <ul class="list-reset nav__list">
+            <li class="nav__item"><a href="#" class="nav__link nav__link--active">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Destinations</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Partner</a></li>
+          </ul>
+        </nav>
+        <button class="btn-reset btn btn--login header__button">Login</button>
+        <button class="btn-reset btn header__button">Register</button>
+      </div>
+      <button class="btn-reset burger" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+</div>
+</header>
+
+    <main class="main">
+      <section class="intro">
+  <div class="container">
+    <div class="intro__inner">
+      <div class="intro__item">
+        <h1 class="intro__title" data-aos="fade-right" data-aos-duration="1500">Explore and Travel</h1>
+        <h2 class="intro__subtitle">Holiday finder</h2>
+        <div class="intro__selects">
+            <select name="Location" class="intro__select">
+              <option value="Location" selected>Location</option>
+            </select>
+            <select name="Activity" class="intro__select">
+              <option value="Activity" selected>Activity</option>
+            </select>
+            <select name="Grade" class="intro__select">
+              <option value="Grade" selected>Grade</option>
+            </select>
+            <select name="Date" class="intro__select">
+              <option value="Date" selected>Date</option>
+            </select>
+        </div>
+        <button class="btn-reset btn intro__button">Explore</button>
+      </div>
+      <div class="intro__item">
+        <picture>
+          <source srcset="img/intro-illustration.avif" type="image/avif">
+          <source srcset="img/intro-illustration.webp" type="image/webp">
+          <img loading="lazy" src="img/intro-illustration.png" class="intro__image" width="687" height="654" alt="illustration">
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="explore">
+  <div class="container">
+    <div class="explore__inner">
+      <div class="explore__item">
+        <picture>
+          <source srcset="img/explore-illustration.avif" type="image/avif">
+          <source srcset="img/explore-illustration.webp" type="image/webp">
+          <img loading="lazy" src="img/explore-illustration.png" class="explore__image" width="659" height="534" alt="illustration" data-aos="fade-right"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="1500"
+          data-aos-duration="1500">
+        </picture>
+      </div>
+      <div class="explore__item" data-aos="fade-left" data-aos-duration="1500">
+        <div class="explore__content">
+          <h3 class="title explore__title">A new way to explore the world </h3>
+          <p class="descr explore__descr">For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect
+            trip, but now, they can also let Lonely Planet Experiences lead the way</p>
+          <button class="btn-reset btn explore__button">Learn more</button>
+        </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+      <section class="featured">
+  <div class="container">
+    <div class="featured__inner">
+      <div class="featured__top">
+        <h3 class="title featured__title">Featured destinations</h3>
+        <a href="#" class="featured__link">View all</a>
+      </div>
+      <div class="featured__content">
+        <div class="featured__card" data-aos-duration="1500" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+          <picture>
+            <source srcset="img/featured-1.avif" type="image/avif">
+            <source srcset="img/featured-1.webp" type="image/webp">
+            <img loading="lazy" src="img/featured-1.png" class="featured__image" width="261" height="332" alt="Raja Ampat">
+          </picture>
+          <div class="featured__card-item">
+            <h4 class="featured__card-title">Raja Ampat</h4>
+            <p class="featured__card-descr">Indonesia</p>
+          </div>
+        </div>
+          <div class="featured__card" data-aos-duration="2000" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <picture>
+              <source srcset="img/featured-2.avif" type="image/avif">
+              <source srcset="img/featured-2.webp" type="image/webp">
+              <img loading="lazy" src="img/featured-2.png" class="featured__image" width="261" height="332" alt="Fanjingshan">
+            </picture>
+            <div class="featured__card-item">
+              <h4 class="featured__card-title">Fanjingshan</h4>
+              <p class="featured__card-descr">China</p>
+            </div>
+          </div>
+            <div class="featured__card" data-aos-duration="2500" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+              <picture>
+                <source srcset="img/featured-3.avif" type="image/avif">
+                <source srcset="img/featured-3.webp" type="image/webp">
+                <img loading="lazy" src="img/featured-3.png" class="featured__image" width="261" height="332" alt="Vevey">
+              </picture>
+              <div class="featured__card-item">
+                <h4 class="featured__card-title">Vevey</h4>
+                <p class="featured__card-descr">Switzerland</p>
+              </div>
+            </div>
+              <div class="featured__card" data-aos-duration="3000" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <picture>
+                  <source srcset="img/featured-4.avif" type="image/avif">
+                  <source srcset="img/featured-4.webp" type="image/webp">
+                  <img loading="lazy" src="img/featured-4.png" class="featured__image" width="261" height="332" alt="Skadar">
+                </picture>
+            <div class="featured__card-item">
+              <h4 class="featured__card-title">Skadar</h4>
+              <p class="featured__card-descr">Montenegro</p>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+      <section class="guides">
+  <div class="container">
+    <div class="guides__inner">
+      <div class="guides__item" data-aos-duration="1500" data-aos="fade-left">
+        <picture>
+          <source srcset="img/guides-illustration.avif" type="image/avif">
+          <source srcset="img/guides-illustration.webp" type="image/webp">
+          <img loading="lazy" src="img/guides-illustration.png" class="guides__image" width="599" height="542" alt="illustration">
+        </picture>
+      </div>
+      <div class="guides__item" data-aos-duration="1500" data-aos="fade-right">
+        <div class="guides__content">
+          <h3 class="title guides__title">Guides by Thousand Sunny</h3>
+          <p class="descr guides__descr">Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
+          <button class="btn-reset btn guides__button">Download</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="reviews">
+  <div class="container">
+    <div class="reviews__inner">
+      <h3 class="title reviews__title">Testimonials</h3>
+      <div class="swiper reviews__swiper">
+        <div class="swiper-wrapper">
+           <div class="swiper-slide">
+            <div class="reviews__content">
+              <div class="reviews__item">
+                <div class="reviews__stars">
+                  <img loading="lazy" src="img/star.svg" class="reviews__image" width="25" height="24" alt="star">
+                  <img loading="lazy" src="img/star.svg" class="reviews__image" width="25" height="24" alt="star">
+                  <img loading="lazy" src="img/star.svg" class="reviews__image" width="25" height="24" alt="star">
+                  <img loading="lazy" src="img/star.svg" class="reviews__image" width="25" height="24" alt="star">
+                  <img loading="lazy" src="img/star.svg" class="reviews__image" width="25" height="24" alt="star">
+                </div>
+                <p class="reviews__descr">«Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec»</p>
+                <h5 class="reviews__name">Edward Newgate</h5>
+                <p class="reviews__prof">Founder Circle</p>
+              </div>
+              <div class="reviews__item reviews__item--picture">
+                <picture>
+                  <source srcset="img/reviews-1.avif" type="image/avif">
+                  <source srcset="img/reviews-1.webp" type="image/webp">
+                  <img loading="lazy" src="img/reviews-1.png" class="reviews__image" width="384" height="491" alt="people">
+                </picture>
+              </div>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="reviews__content">
+              <div class="reviews__item">
+                <div class="reviews__stars">
+                  <img loading="lazy" src="img/star.svg" class="reviews__image" width="25" height="24" alt="star">
+                  <img loading="lazy" src="img/star.svg" class="reviews__image" width="25" height="24" alt="star">
+                  <img loading="lazy" src="img/star.svg" class="reviews__image" width="25" height="24" alt="star">
+                  <img loading="lazy" src="img/star.svg" class="reviews__image" width="25" height="24" alt="star">
+                  <img loading="lazy" src="img/star.svg" class="reviews__image" width="25" height="24" alt="star">
+                </div>
+                <p class="reviews__descr">«Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec»</p>
+                <h5 class="reviews__name">Edward Newgate</h5>
+                <p class="reviews__prof">Founder Circle</p>
+              </div>
+              <div class="reviews__item reviews__item--picture">
+                <picture>
+                  <source srcset="img/reviews-1.avif" type="image/avif">
+                  <source srcset="img/reviews-1.webp" type="image/webp">
+                  <img loading="lazy" src="img/reviews-1.png" class="reviews__image" width="384" height="491" alt="people">
+                </picture>
+              </div>
+            </div>
+           </div>
+        </div>
+        <div class="reviews__btns">
+          <button class="btn-reset reviews__slider-btn reviews__slider-btn--prev" aria-label="Перейти к предыдущему слайду">
+
+          </button>
+          <button class="btn-reset reviews__slider-btn reviews__slider-btn--next" aria-label="Перейти к следующему слайду">
+
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="trending">
+  <div class="container">
+    <div class="trending__inner">
+      <div class="trending__top">
+        <h3 class="title trending__title">Trending stories</h3>
+        <a href="#" class="trending__link">View all</a>
+      </div>
+      <div class="trending__bottom">
+        <div class="trending__item" data-aos="flip-left" data-aos-duration="1500">
+          <picture>
+            <source srcset="img/trending-1.avif" type="image/avif">
+            <source srcset="img/trending-1.webp" type="image/webp">
+            <img loading="lazy" src="img/trending-1.png" class="trending__image" width="261" height="231" alt="yoga">
+          </picture>
+          <div class="trending__item-content">
+            <h6 class="trending__item-title">The many benefits of
+              taking a healing holiday</h6>
+              <p class="trending__item-descr">‘Helaing holidays’ are on the rise
+                tohelp maximise your health and happines…</p>
+              <a href="#" class="trending__item-link">Read more</a>
+          </div>
+        </div>
+        <div class="trending__item" data-aos="flip-left" data-aos-duration="1500">
+          <picture>
+            <source srcset="img/trending-2.avif" type="image/avif">
+            <source srcset="img/trending-2.webp" type="image/webp">
+            <img loading="lazy" src="img/trending-2.png" class="trending__image" width="261" height="231" alt="food">
+          </picture>
+          <div class="trending__item-content">
+            <h6 class="trending__item-title">The best Kyoto restaurant
+              to try Japanese food</h6>
+              <p class="trending__item-descr">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
+                to visit…</p>
+              <a href="#" class="trending__item-link">Read more</a>
+          </div>
+        </div>
+        <div class="trending__item" data-aos="flip-left" data-aos-duration="1500">
+          <picture>
+            <source srcset="img/trending-3.avif" type="image/avif">
+            <source srcset="img/trending-3.webp" type="image/webp">
+            <img loading="lazy" src="img/trending-3.png" class="trending__image" width="261" height="231" alt="pyramid">
+          </picture>
+          <div class="trending__item-content">
+            <h6 class="trending__item-title">TSkip Chichen Itza and head
+              to this remote Yucatan</h6>
+              <p class="trending__item-descr">It’s remote and challenging to get,
+                but braving the jungle and exploring
+                these ruins without the…</p>
+              <a href="#" class="trending__item-link">Read more</a>
+          </div>
+        </div>
+        <div class="trending__item" data-aos="flip-left" data-aos-duration="1500">
+          <picture>
+            <source srcset="img/trending-4.avif" type="image/avif">
+            <source srcset="img/trending-4.webp" type="image/webp">
+            <img loading="lazy" src="img/trending-4.png" class="trending__image" width="261" height="231" alt="surfing">
+          </picture>
+          <div class="trending__item-content">
+            <h6 class="trending__item-title">Surf’s up at these beginner
+              spots around the world</h6>
+              <p class="trending__item-descr">If learning to surf has in on your to-
+                do list for a while, the good news
+                is: it’s never too late…</p>
+              <a href="#" class="trending__item-link">Read more</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__column">
+        <img loading="lazy" src="img/logo.svg" class="footer__logo" width="44" height="44" alt="logo">
+        <p class="footer__descr">Plan and book your perfect trip with
+          expert advice, travel tips destination
+          information from us</p>
+          <div class="footer__copyright">© Site by WebReactor — made to show skills</div>
+      </div>
+      <div class="footer__column">
+        <ul class="list-reset footer__list">
+          <li class="footer__item"><h6 class="footer__title">Destinations</h6></li>
+          <li class="footer__item"><a href="#" class="footer__link">Africa</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Antarctica</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Asia</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Europe</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">America</a></li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <ul class="list-reset footer__list">
+          <li class="footer__item"><h6 class="footer__title">Shop</h6></li>
+          <li class="footer__item"><a href="#" class="footer__link">Destination Guides</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Pictorial & Gifts</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Special Offers</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Delivery Times</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">FAQs</a></li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <ul class="list-reset footer__list">
+          <li class="footer__item"><h6 class="footer__title">Interests</h6></li>
+          <li class="footer__item"><a href="#" class="footer__link">Adventure Travel</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Art And Culture</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Wildlife And Nature</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Family Holidays</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Food And Drink</a></li>
+        </ul>
+      </div>
+    </div>
+    <ul class="list-reset social" title="Social">
+      <li class="social__item">
+        <a href="#" target="_blank" class="social__link social__link--tw" aria-label="Twitter">
+          <svg class="social__icon">
+            <use xlink:href="img/sprite.svg#tw"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a href="#" target="_blank" class="social__link social__link--fb" aria-label="Facebook">
+          <svg class="social__icon">
+            <use xlink:href="img/sprite.svg#fb"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a href="#" target="_blank" class="social__link social__link--inst" aria-label="Instagram">
+          <svg class="social__icon">
+            <use xlink:href="img/sprite.svg#inst"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a href="#" target="_blank" class="social__link social__link--in" aria-label="LinkedIN">
+          <svg class="social__icon">
+            <use xlink:href="img/sprite.svg#in"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a href="#" target="_blank" class="social__link social__link--yt" aria-label="Youtube">
+          <svg class="social__icon">
+            <use xlink:href="img/sprite.svg#yt"></use>
+          </svg>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
